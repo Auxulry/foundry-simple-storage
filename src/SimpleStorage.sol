@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.19;
+pragma solidity ^0.8.19;
 
 contract SimpleStorage {
     // boolean, uint, int, address, bytes
@@ -22,7 +22,7 @@ contract SimpleStorage {
         favoriteNumber = _favoriteNumber;
     }
 
-    function retrive() public view returns (uint256) {
+    function retrieve() public view returns (uint256) {
         return favoriteNumber;
     }
 
